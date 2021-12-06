@@ -10,8 +10,8 @@ namespace Task11
     {
         static void Main(string[] args)
         {
-            Equation x = new Equation { k = -15.2342, b = 23.3430 };
-            x.Root();
+            Equation eq1 = new Equation { k = -15.2342, b = 23.3430 };
+            eq1.Root();
             Console.ReadKey();
         }
         struct Equation
